@@ -6,6 +6,7 @@ module.exports = {
   },
   rules: {
     camelcase: 0,
+    'class-methods-use-this': 0,
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/camelcase': 0,
     '@typescript-eslint/explicit-module-boundary-types': 0,

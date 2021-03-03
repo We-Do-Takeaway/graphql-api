@@ -8,7 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
     "lib": ["ES2020"],
-    "module": "ES2020",
+    "module": "commonjs",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -20,7 +20,6 @@
     "removeComments": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "strict": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "target": "ES2020"

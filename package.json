@@ -1,0 +1,39 @@
+{
+  "name": "wdt-graphql-api",
+  "version": "0.0.1",
+  "description": "We Do Takeaway API Written in Typescript",
+  "author": "Zac Tolley <zac@thetolleys.com>",
+  "license": "MIT",
+  "keywords": [
+    "Typescript",
+    "GraphQL"
+  ],
+  "repository": "github:wedotakeaway/graphql-api",
+  "bugs": {
+    "url": "https://github.com/wedotakeaway/graphql-api/issues"
+  },
+  "private": true,
+  "main": "src/server.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/server.ts",
+    "start": "node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.31",
+    "@ztolley/eslint-config-typescript": "^2.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-node-dev": "^1.1.6",
+    "tslib": "^2.1.0",
+    "typescript": "^4.2.2"
+  },
+  "type": "module"
+}
